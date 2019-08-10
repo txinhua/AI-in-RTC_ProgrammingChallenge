@@ -1,0 +1,746 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2260F8A109EE336F7528972A /* Pods_MITUTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0401380DDA19A786A172D575 /* Pods_MITUTests.framework */; };
+		921D10A7B3A5A346F213A62E /* Pods_MITU.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 217C298FFDB676870D499466 /* Pods_MITU.framework */; };
+		93467FF8012CE917081642BB /* Pods_MITUUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ED25E46D91B2081F471D34D /* Pods_MITUUITests.framework */; };
+		B144755522FF09820028F392 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B144755422FF09820028F392 /* AppDelegate.m */; };
+		B144755822FF09820028F392 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B144755722FF09820028F392 /* ViewController.m */; };
+		B144755B22FF09820028F392 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B144755922FF09820028F392 /* Main.storyboard */; };
+		B144755D22FF09840028F392 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B144755C22FF09840028F392 /* Assets.xcassets */; };
+		B144756022FF09840028F392 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B144755E22FF09840028F392 /* LaunchScreen.storyboard */; };
+		B144756322FF09840028F392 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B144756222FF09840028F392 /* main.m */; };
+		B144756D22FF09850028F392 /* MITUTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B144756C22FF09850028F392 /* MITUTests.m */; };
+		B144757822FF09850028F392 /* MITUUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B144757722FF09850028F392 /* MITUUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B144756922FF09850028F392 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B144754822FF09820028F392 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B144754F22FF09820028F392;
+			remoteInfo = MITU;
+		};
+		B144757422FF09850028F392 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B144754822FF09820028F392 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B144754F22FF09820028F392;
+			remoteInfo = MITU;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0401380DDA19A786A172D575 /* Pods_MITUTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MITUTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		217C298FFDB676870D499466 /* Pods_MITU.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MITU.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2711C03A3B06A4575724F44D /* Pods-MITUUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MITUUITests.debug.xcconfig"; path = "Target Support Files/Pods-MITUUITests/Pods-MITUUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3A17C9F1634A7CB3EBA968BA /* Pods-MITU.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MITU.release.xcconfig"; path = "Target Support Files/Pods-MITU/Pods-MITU.release.xcconfig"; sourceTree = "<group>"; };
+		5ED25E46D91B2081F471D34D /* Pods_MITUUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MITUUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA94199A48CE64C12EEA8314 /* Pods-MITU.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MITU.debug.xcconfig"; path = "Target Support Files/Pods-MITU/Pods-MITU.debug.xcconfig"; sourceTree = "<group>"; };
+		B144755022FF09820028F392 /* MITU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MITU.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B144755322FF09820028F392 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B144755422FF09820028F392 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B144755622FF09820028F392 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B144755722FF09820028F392 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B144755A22FF09820028F392 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B144755C22FF09840028F392 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B144755F22FF09840028F392 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B144756122FF09840028F392 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B144756222FF09840028F392 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B144756822FF09850028F392 /* MITUTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MITUTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B144756C22FF09850028F392 /* MITUTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MITUTests.m; sourceTree = "<group>"; };
+		B144756E22FF09850028F392 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B144757322FF09850028F392 /* MITUUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MITUUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B144757722FF09850028F392 /* MITUUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MITUUITests.m; sourceTree = "<group>"; };
+		B144757922FF09850028F392 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B144758522FF108D0028F392 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		B144758722FF10940028F392 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B144758922FF109F0028F392 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		B144758B22FF10AF0028F392 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		B144758D22FF10F20028F392 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		B144758F22FF10FB0028F392 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		B144759122FF11050028F392 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B144759322FF110E0028F392 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		B144759522FF11150028F392 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B144759722FF11250028F392 /* CoreML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreML.framework; path = System/Library/Frameworks/CoreML.framework; sourceTree = SDKROOT; };
+		C354F47EDF93EBC8A61F9C12 /* Pods-MITUTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MITUTests.debug.xcconfig"; path = "Target Support Files/Pods-MITUTests/Pods-MITUTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CAD6A37E9A7D6842E1867C7E /* Pods-MITUUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MITUUITests.release.xcconfig"; path = "Target Support Files/Pods-MITUUITests/Pods-MITUUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FCAA7DB874E57B8935156824 /* Pods-MITUTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MITUTests.release.xcconfig"; path = "Target Support Files/Pods-MITUTests/Pods-MITUTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B144754D22FF09820028F392 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				921D10A7B3A5A346F213A62E /* Pods_MITU.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B144756522FF09850028F392 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2260F8A109EE336F7528972A /* Pods_MITUTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B144757022FF09850028F392 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93467FF8012CE917081642BB /* Pods_MITUUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E0ECA01E6F543E4DD552E06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B144759722FF11250028F392 /* CoreML.framework */,
+				B144759522FF11150028F392 /* AVFoundation.framework */,
+				B144759322FF110E0028F392 /* CoreTelephony.framework */,
+				B144759122FF11050028F392 /* AudioToolbox.framework */,
+				B144758F22FF10FB0028F392 /* VideoToolbox.framework */,
+				B144758D22FF10F20028F392 /* CoreMedia.framework */,
+				B144758B22FF10AF0028F392 /* libresolv.tbd */,
+				B144758922FF109F0028F392 /* libc++.tbd */,
+				B144758722FF10940028F392 /* SystemConfiguration.framework */,
+				B144758522FF108D0028F392 /* Accelerate.framework */,
+				217C298FFDB676870D499466 /* Pods_MITU.framework */,
+				0401380DDA19A786A172D575 /* Pods_MITUTests.framework */,
+				5ED25E46D91B2081F471D34D /* Pods_MITUUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B144754722FF09820028F392 = {
+			isa = PBXGroup;
+			children = (
+				B144755222FF09820028F392 /* MITU */,
+				B144756B22FF09850028F392 /* MITUTests */,
+				B144757622FF09850028F392 /* MITUUITests */,
+				B144755122FF09820028F392 /* Products */,
+				BC1D8DED87D42115A33FF4F5 /* Pods */,
+				5E0ECA01E6F543E4DD552E06 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B144755122FF09820028F392 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B144755022FF09820028F392 /* MITU.app */,
+				B144756822FF09850028F392 /* MITUTests.xctest */,
+				B144757322FF09850028F392 /* MITUUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B144755222FF09820028F392 /* MITU */ = {
+			isa = PBXGroup;
+			children = (
+				B144755322FF09820028F392 /* AppDelegate.h */,
+				B144755422FF09820028F392 /* AppDelegate.m */,
+				B144755622FF09820028F392 /* ViewController.h */,
+				B144755722FF09820028F392 /* ViewController.m */,
+				B144755922FF09820028F392 /* Main.storyboard */,
+				B144755C22FF09840028F392 /* Assets.xcassets */,
+				B144755E22FF09840028F392 /* LaunchScreen.storyboard */,
+				B144756122FF09840028F392 /* Info.plist */,
+				B144756222FF09840028F392 /* main.m */,
+			);
+			path = MITU;
+			sourceTree = "<group>";
+		};
+		B144756B22FF09850028F392 /* MITUTests */ = {
+			isa = PBXGroup;
+			children = (
+				B144756C22FF09850028F392 /* MITUTests.m */,
+				B144756E22FF09850028F392 /* Info.plist */,
+			);
+			path = MITUTests;
+			sourceTree = "<group>";
+		};
+		B144757622FF09850028F392 /* MITUUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B144757722FF09850028F392 /* MITUUITests.m */,
+				B144757922FF09850028F392 /* Info.plist */,
+			);
+			path = MITUUITests;
+			sourceTree = "<group>";
+		};
+		BC1D8DED87D42115A33FF4F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA94199A48CE64C12EEA8314 /* Pods-MITU.debug.xcconfig */,
+				3A17C9F1634A7CB3EBA968BA /* Pods-MITU.release.xcconfig */,
+				C354F47EDF93EBC8A61F9C12 /* Pods-MITUTests.debug.xcconfig */,
+				FCAA7DB874E57B8935156824 /* Pods-MITUTests.release.xcconfig */,
+				2711C03A3B06A4575724F44D /* Pods-MITUUITests.debug.xcconfig */,
+				CAD6A37E9A7D6842E1867C7E /* Pods-MITUUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B144754F22FF09820028F392 /* MITU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B144757C22FF09850028F392 /* Build configuration list for PBXNativeTarget "MITU" */;
+			buildPhases = (
+				119FFB4F0B32610A3E4CBFF6 /* [CP] Check Pods Manifest.lock */,
+				B144754C22FF09820028F392 /* Sources */,
+				B144754D22FF09820028F392 /* Frameworks */,
+				B144754E22FF09820028F392 /* Resources */,
+				6F4BC4E4E40F8AA32EF16806 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MITU;
+			productName = MITU;
+			productReference = B144755022FF09820028F392 /* MITU.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B144756722FF09850028F392 /* MITUTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B144757F22FF09850028F392 /* Build configuration list for PBXNativeTarget "MITUTests" */;
+			buildPhases = (
+				F1258390245138627C5BBDD0 /* [CP] Check Pods Manifest.lock */,
+				B144756422FF09850028F392 /* Sources */,
+				B144756522FF09850028F392 /* Frameworks */,
+				B144756622FF09850028F392 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B144756A22FF09850028F392 /* PBXTargetDependency */,
+			);
+			name = MITUTests;
+			productName = MITUTests;
+			productReference = B144756822FF09850028F392 /* MITUTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B144757222FF09850028F392 /* MITUUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B144758222FF09850028F392 /* Build configuration list for PBXNativeTarget "MITUUITests" */;
+			buildPhases = (
+				29A89C665964E29C7C4C4534 /* [CP] Check Pods Manifest.lock */,
+				B144756F22FF09850028F392 /* Sources */,
+				B144757022FF09850028F392 /* Frameworks */,
+				B144757122FF09850028F392 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B144757522FF09850028F392 /* PBXTargetDependency */,
+			);
+			name = MITUUITests;
+			productName = MITUUITests;
+			productReference = B144757322FF09850028F392 /* MITUUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B144754822FF09820028F392 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "唐桂富";
+				TargetAttributes = {
+					B144754F22FF09820028F392 = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					B144756722FF09850028F392 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = B144754F22FF09820028F392;
+					};
+					B144757222FF09850028F392 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = B144754F22FF09820028F392;
+					};
+				};
+			};
+			buildConfigurationList = B144754B22FF09820028F392 /* Build configuration list for PBXProject "MITU" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B144754722FF09820028F392;
+			productRefGroup = B144755122FF09820028F392 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B144754F22FF09820028F392 /* MITU */,
+				B144756722FF09850028F392 /* MITUTests */,
+				B144757222FF09850028F392 /* MITUUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B144754E22FF09820028F392 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B144756022FF09840028F392 /* LaunchScreen.storyboard in Resources */,
+				B144755D22FF09840028F392 /* Assets.xcassets in Resources */,
+				B144755B22FF09820028F392 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B144756622FF09850028F392 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B144757122FF09850028F392 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		119FFB4F0B32610A3E4CBFF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MITU-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29A89C665964E29C7C4C4534 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MITUUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F4BC4E4E40F8AA32EF16806 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MITU/Pods-MITU-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MITU/Pods-MITU-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MITU/Pods-MITU-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1258390245138627C5BBDD0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MITUTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B144754C22FF09820028F392 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B144755822FF09820028F392 /* ViewController.m in Sources */,
+				B144756322FF09840028F392 /* main.m in Sources */,
+				B144755522FF09820028F392 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B144756422FF09850028F392 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B144756D22FF09850028F392 /* MITUTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B144756F22FF09850028F392 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B144757822FF09850028F392 /* MITUUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B144756A22FF09850028F392 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B144754F22FF09820028F392 /* MITU */;
+			targetProxy = B144756922FF09850028F392 /* PBXContainerItemProxy */;
+		};
+		B144757522FF09850028F392 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B144754F22FF09820028F392 /* MITU */;
+			targetProxy = B144757422FF09850028F392 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B144755922FF09820028F392 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B144755A22FF09820028F392 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B144755E22FF09840028F392 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B144755F22FF09840028F392 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B144757A22FF09850028F392 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B144757B22FF09850028F392 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B144757D22FF09850028F392 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA94199A48CE64C12EEA8314 /* Pods-MITU.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = ZB6S7V5DXY;
+				INFOPLIST_FILE = MITU/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tyrone.rabbitstudy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "rabbity-study";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B144757E22FF09850028F392 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A17C9F1634A7CB3EBA968BA /* Pods-MITU.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = ZB6S7V5DXY;
+				INFOPLIST_FILE = MITU/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tyrone.rabbitstudy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "RabbitStudy-prod";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		B144758022FF09850028F392 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C354F47EDF93EBC8A61F9C12 /* Pods-MITUTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MITUTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tang.guifu.MITUTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MITU.app/MITU";
+			};
+			name = Debug;
+		};
+		B144758122FF09850028F392 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCAA7DB874E57B8935156824 /* Pods-MITUTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MITUTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tang.guifu.MITUTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MITU.app/MITU";
+			};
+			name = Release;
+		};
+		B144758322FF09850028F392 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2711C03A3B06A4575724F44D /* Pods-MITUUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MITUUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tang.guifu.MITUUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MITU;
+			};
+			name = Debug;
+		};
+		B144758422FF09850028F392 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAD6A37E9A7D6842E1867C7E /* Pods-MITUUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MITUUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tang.guifu.MITUUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MITU;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B144754B22FF09820028F392 /* Build configuration list for PBXProject "MITU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B144757A22FF09850028F392 /* Debug */,
+				B144757B22FF09850028F392 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B144757C22FF09850028F392 /* Build configuration list for PBXNativeTarget "MITU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B144757D22FF09850028F392 /* Debug */,
+				B144757E22FF09850028F392 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B144757F22FF09850028F392 /* Build configuration list for PBXNativeTarget "MITUTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B144758022FF09850028F392 /* Debug */,
+				B144758122FF09850028F392 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B144758222FF09850028F392 /* Build configuration list for PBXNativeTarget "MITUUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B144758322FF09850028F392 /* Debug */,
+				B144758422FF09850028F392 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B144754822FF09820028F392 /* Project object */;
+}
